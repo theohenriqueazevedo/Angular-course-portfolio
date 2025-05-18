@@ -1,11 +1,15 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { HomeComponent } from './modules/portfolio/pages/home/home.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet],
-  template: `<router-outlet></router-outlet>`,
+  imports: [RouterOutlet, HomeComponent],
+  template: `
+    <router-outlet></router-outlet>
+  `,
 })
-export class AppComponent {}
+export class AppComponent {
+  title = 'portifolio-curso-angular';
+}

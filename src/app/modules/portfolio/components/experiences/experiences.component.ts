@@ -14,45 +14,31 @@ export class ExperiencesComponent {
   public arrayExperiences = signal<IExperiences[]>([
     {
       summary: {
-        strong: 'Front-end Especialista',
-        p: 'ZUP | Set 2020 - Present',
+        strong: 'Assessor de Presidência',
+        p: 'Asimov Jr. | Mar 2025 - Presente',
       },
-      text: '<p>Desde setembro de 2020, atuo como Analista de Sistema Especialista na ZUP, destacando-me nas áreas Front-end, utilizando Html5, Css3, Javascript, TypeScript, Angular 2+, Angular Material e NgRx, e Back-end, onde o NodeJs é aplicado em Provas de Conceito, caso necessário.</p> <p>Além disso, minha experiência abrange a integração com Micro Serviços, Docker, GitLab, Jira e Scrum. Atualmente, enfrento o desafio significativo de contribuir para o desenvolvimento do Open Finance para o Banco Itaú, alcançando sucesso ao implementar a ferramenta em conformidade com os marcos regulatórios.</p> <p>Destaco também a criação de componentes altamente reutilizáveis e personalizáveis no front-end, utilizando Angular, como parte do nosso compromisso com a eficiência e a qualidade do código.</p>',
+      text: '<p>Atuo na área administrativa da Asimov Jr, desempenhando funções essenciais para a gestão eficiente da empresa. Minhas principais responsabilidades incluem:</p> <p>- Gestão de parcerias e contratos, garantindo alinhamento estratégico e conformidade documental.</p> <p>- Controle de caixa e financeiro, assegurando organização e transparência nos processos internos.</p> <p>- Emissão de notas fiscais (NF), lidando com documentação fiscal e garantindo a conformidade tributária.</p> <p>- Organização administrativa, estruturando processos para otimizar a operação da empresa.</p>',
     },
     {
       summary: {
-        strong: 'Fullstack Developer',
-        p: 'Everis | Out 2019 - set 2020',
+        strong: 'Trainee',
+        p: 'Asimov Jr. | Nov 2024 - Mar 2025',
       },
-      text: '<p>Durante meu período na Everis de outubro de 2019 a setembro de 2020, atuei como Analista de Sistema, liderando e desenvolvendo equipes.</p> <p>Minhas responsabilidades no front-end incluíram o uso de Html5, Css3, Javascript, TypeScript, Angular, Angular Material e NgRx, enquanto no back-end, trabalhei com NodeJs (Express/NestJs), Sequelize/TypeOrm, MongoDb, MariaDb e Redis.</p> <p>Além disso, liderei integrações com Micro Serviços, Jenkins, Gcloud, Kubernetes e Docker, utilizando ferramentas como GitLab, Jira e Scrum.</p> <p>Durante esse período, enfrentei e superei desafios significativos, destacando-se o desenvolvimento de um ChatBot.</p> <p>Como resultado, fui promovido a Líder da Squad Fullstack Angular/NodeJs, conduzi melhorias contínuas em um sistema legado e aprimorei minhas habilidades nos processos do GitFlow.</p>',
+      text: '<p>Período de capacitação intensiva com aprendizado em áreas essenciais para a gestão e operação de uma empresa júnior.</p> <p>- Desenvolvimento de habilidades em Excel básico, facilitando a organização e análise de dados.</p> <p>- Aprimoramento da comunicação assertiva, essencial para interações profissionais eficazes.</p> <p>- Experiência prática com prospecção de clientes, compreendendo estratégias de captação e negociação.</p> <p>- Noções sobre a organização administrativa da empresa júnior, incluindo estrutura, processos internos e trabalho em equipe.</p> <p>- Conceitos e fundamentos de UX e UI com a finalidade de capacitação de sites.</p> <p>- Desenvolvimento de sites utilizando a ferramenta WordPress.</p> <p>Essa experiência me proporcionou uma visão ampla sobre o funcionamento de uma EJ, desenvolvendo tanto habilidades técnicas quanto interpessoais, fundamentais para minha trajetória profissional.</p>',
     },
     {
       summary: {
-        strong: 'Consultor Web',
-        p: 'Consultor Web | Set 2018 - Set 2019',
+        strong: 'Membro área Networking',
+        p: 'HawkSec UNIFEI | Abr 2024 - Fev 2025',
       },
-      text: '<p>Em minha jornada como consultor web, tive a oportunidade de ser a ponte para várias empresas embarcarem no universo online.</p> <p>Por meio de projetos cuidadosamente elaborados, explorei o vasto espectro do desenvolvimento front-end, utilizando Html5, Css3, Javascript, TypeScript, Angular e Angular Material.</p> <p>Nos bastidores, no back-end, construí robustas infraestruturas com NodeJs (Express/NestJs), Sequelize/TypeOrm e integrações eficientes com bancos de dados MySql/Postgress.</p>',
+      text: '<p>Responsável por pesquisar, configurar e otimizar ferramentas em ambientes de teste e competições CTF. Desenvolvi conhecimento básico acerca do uso de ferramentas como Wireshark, Nmap, Burp Suite e Metasploit para análise de tráfego e identificação de vulnerabilidades em aplicações web e banco de dados, além de resolver desafios práticos em plataformas de CTF.</p> <p>Além disso, pude desenvolver fortemente minhas habilidades interpessoais como trabalho em equipe, comunicação eficaz e resolução de problemas sob pressão, essenciais para a colaboração em desafios complexos e tomada de decisões estratégicas.</p>',
     },
     {
       summary: {
-        strong: 'Fullstack Developer',
-        p: 'MKTEW21 |  Set 2016 - Set 2018',
+        strong: 'Trainee',
+        p: 'HawkSec UNIFEI | Mai 2024 - Jun 2024',
       },
-      text: '<p>Minha jornada na empresa mktew21 foi um verdadeiro mergulho no mundo fullstack, onde absorvi conhecimentos em diversas tecnologias.</p> <p>Foi um período de aprendizado intenso no desenvolvimento end-to-end, abrangendo a criação de aplicativos híbridos, desktop e web.</p> <p>E nesse cenário dinâmico que tomei a decisão de direcionar meu foco para as tecnologias NodeJs, TypeScript e Angular.</p> <p>No front-end, explorei as ferramentas Html5, Css3, Javascript, TypeScript, Angular e Angular Material, enquanto nos bastidores, no back-end, estive envolvido com NodeJs (Express), Sequelize, Laravel (PHP) e integrações com bancos de dados MySql/Postgress.</p>',
-    },
-    {
-      summary: {
-        strong: 'Decolar.com Front-end',
-        p: 'Decolar.com | Set 2014 - Set 2016',
-      },
-      text: '<p>Durante minha passagem pelo Decolar.com, dediquei-me intensamente à criação e atualização de páginas de vendas, além de colaborar com o departamento de Recursos Humanos na implementação de um sistema de gestão de vagas.</p> <p>Extendendo minha contribuição a diversos setores, como marketing, vendas, entre outros, empreguei as tecnologias da época no desenvolvimento, incluindo Html5, Css3, Javascript, Jquery e AngularJS no front-end, e PHP no back-end.</p>',
-    },
-    {
-      summary: {
-        strong: 'EW21 Front-end',
-        p: 'EW21 | Mar 2013 - Set 2014',
-      },
-      text: '<p>No ew21, marco inicial da minha trajetória profissional, mergulhei em um aprendizado abrangente que englobava não apenas front-end, design e backend, mas também incluía domínio em tecnologias como Flash e muito mais.</p> <p>Essa empresa se revelou uma verdadeira escola inicial, onde absorvi conhecimentos variados. No front-end, desenvolvi habilidades com Html5, Css3, Javascript, Jquery e Wordpress, enquanto no back-end, explorei PHP, Cake (PHP) e integrações com bancos de dados MySql.</p>',
+      text: '<p>Participação no programa de trainee da HawkSec UNIFEI, focado em Capture The Flag (CTF). Durante este período, adquiri conhecimentos fundamentais em segurança da informação e participei ativamente de competições CTF, desenvolvendo habilidades práticas em um ambiente desafiador e dinâmico.</p>',
     },
   ]);
 }
