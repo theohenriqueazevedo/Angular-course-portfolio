@@ -1,0 +1,19 @@
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "files.autoSave": "onFocusChange",
+    "material-icon-theme.activeIconPack": "angular",
+    "material-icon-theme.folders.theme": "specific",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#1E1E1E",
+        "sideBar.background": "#1E1E1E",
+        "editor.background": "#1E1E1E"
+    }
+} 

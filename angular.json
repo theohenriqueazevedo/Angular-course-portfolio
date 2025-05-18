@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "portifolio-curso-angular": {
+    "portfolio-curso-angular": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -24,12 +24,10 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/portifolio-curso-angular",
+            "outputPath": "dist/portfolio-curso-angular",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
@@ -38,9 +36,7 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "styles": ["src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -71,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "portifolio-curso-angular:build:production"
+              "buildTarget": "portfolio-curso-angular:build:production"
             },
             "development": {
-              "buildTarget": "portifolio-curso-angular:build:development"
+              "buildTarget": "portfolio-curso-angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -85,10 +81,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
             "assets": [
@@ -97,13 +90,14 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "styles": ["src/styles.scss"],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "27528538-2437-4216-b88a-86db0299f322"
   }
 }
