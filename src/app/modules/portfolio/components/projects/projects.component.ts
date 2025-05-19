@@ -48,6 +48,10 @@ export class ProjectsComponent {
     this.#dialog.open(DialogProjectsComponent, {
       data,
       panelClass: EDialogPanelClass.Projects,
+      position: { right: '0' },
+      height: '100vh',
+      maxWidth: '100vw',
+      width: '600px'
     });
   }
 }
