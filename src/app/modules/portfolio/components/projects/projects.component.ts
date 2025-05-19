@@ -28,9 +28,9 @@ export class ProjectsComponent {
   #dialog = inject(MatDialog);
   public arrayProjects = signal<IProjects[]>([
     {
-      src: 'assets/img/projects/vfull.png',
-      alt: 'Projeto Vida FullStack',
-      title: 'Vida FullStack',
+      src: 'assets/img/projects/tela-lista-tarefa.png',
+      alt: 'Projeto lista de tarefa',
+      title: 'lista de tarefa',
       with: '100px',
       height: '51px',
       description:
